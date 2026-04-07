@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #0D1B2A, #5a3094);
+    background: linear-gradient(245deg, #e6e6e6, #b9643d);
 }
 
 /* container IDIOMA */
@@ -26,7 +26,7 @@ body {
     min-height: 100vh;        /* ocupa toda a altura da tela */
     max-width: 600px;
     margin: 0 auto;
-    background-color: #dcdcdc;
+    background-color: #000000;
     border-radius: 15px;
 }
 
@@ -47,7 +47,7 @@ body {
     margin-bottom: 15px;
     object-fit: cover;       
     object-position: top; 
-    box-shadow: #17015a 1px 1px 20px;
+    box-shadow: #774103 1px 1px 20px;
 }
 
 /* Título */
@@ -55,7 +55,7 @@ h3 {
     text-align: center;
     font-size: 1.6em;
 
-    color: #262626;
+    color: #ffa34e;
     margin-bottom: 30px;
     font-family: 'Arial', sans-serif;
     text-shadow: 1px 1px 2px #e0e0e0;
@@ -75,14 +75,14 @@ h3 {
     align-items: center;
     gap: 15px;
     align-items: flex-start;
-    background-color: #39006e;
+    background-color: #ffffff;
     padding: 8px;
 }
 
 .imagem-produto {
     width: 100px;
     height: auto;
-    border-color: 2px solid #e3e3e3;
+    border-color: 2px solid #1f1f1f;
 }
 
 .oferta {
@@ -95,7 +95,7 @@ h3 {
     text-decoration: none;
     font-weight: normal;
     font-style: normal;
-    color: #e9e9e9;
+    color: #1e1e1e;
 }
 
 /* Rodapé */
