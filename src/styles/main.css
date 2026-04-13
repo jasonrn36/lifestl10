@@ -74,6 +74,10 @@ h3 {
     text-shadow: 1px 1px 2px #e0e0e0;
 }
 
+.slogan {
+    padding-bottom: 16px;
+}
+
 /* Container dos botões */
 .produtos {
     display: flex;
@@ -133,6 +137,5 @@ h3 {
 .footer a {
     color: #000000;
     font-size: 1.0em;
-    text-decoration:dotted underline #308f00;
 
 }
