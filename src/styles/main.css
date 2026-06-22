@@ -60,14 +60,17 @@ header {
 
 .produto-card img { 
     width: 100%; 
-    height: 250px; /* Altura fixa para todas as imagens serem iguais */
+    height: 320px; /* Altura fixa para todas as imagens serem iguais */
     object-fit: contain; /* Faz a imagem caber no espaço sem cortar nem distorcer */
     background-color: #fff; /* Fundo branco caso a imagem seja menor que o espaço */
-    padding: 5px; /* Espaço para a imagem não encostar nas bordas do card */
+    padding-right: 5px; /* Espaço para a imagem não encostar nas bordas do card */
+    padding-left: 5px;
+    padding-bottom: 0px;
 }
 
     .info {
-        padding: 10px; 
+        padding-right: 8px;
+        padding-left: 8px;
         text-align: center; 
         display: flex;
         flex-direction: column; /* Organiza os itens em coluna */
@@ -84,8 +87,8 @@ header {
     text-overflow: ellipsis;
     font-size: 14px; 
     color: #333; 
-    height: 36px; /* Altura fixa para 2 linhas de texto */
-    margin-bottom: 10px; /* Espaço para o preço */
+    height: 80px; /* Altura fixa para 2 linhas de texto */
+    margin-bottom: 8px; /* Espaço para o preço */
     padding-bottom: 0 !important;
 }
 
