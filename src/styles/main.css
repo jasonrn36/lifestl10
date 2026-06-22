@@ -15,7 +15,7 @@ header {
     position: fixed; 
     top: 0; 
     width: 100%;
-    background: #ee4d2d; 
+    background: #090042; 
     padding: 15px;
     z-index: 1000; 
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -91,7 +91,7 @@ header {
 
 .preco { 
     font-weight: bold; 
-    color: #ee4d2d; 
+    color: #1800ad; 
     font-size: 18px;
     margin-top: auto; /* Joga o preço e o botão para baixo */
     margin-bottom: 8px;
@@ -99,7 +99,7 @@ header {
 
 .btn-comprar {
     display: block; 
-    background: #ee4d2d; 
+    background: #1800ad; 
     color: white;
     text-decoration: none; 
     padding: 8px; 
@@ -110,7 +110,7 @@ header {
 footer {
     text-align: center; 
     padding: 20px; 
-    background: #ee4d2d; 
+    background: #1800ad; 
     color: white;
 }
 
